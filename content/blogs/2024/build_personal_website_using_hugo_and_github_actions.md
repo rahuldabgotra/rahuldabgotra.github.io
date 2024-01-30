@@ -1,7 +1,7 @@
 ---
 title: "Build Personal Website using HUGO and GitHub Actions"
 date: 2024-01-30T19:31:27+05:30
-draft: true
+draft: false
 tags: ["GitHub Actions", "Hugo"]
 categories: ["Tech"]
 ---

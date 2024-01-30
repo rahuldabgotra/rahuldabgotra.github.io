@@ -9,16 +9,18 @@ frontmatter: yaml
 params:
   author: Rahul Dabgotra
   homeInfoParams:
-    Title: "Hy, I'm Rahul"
+    Title: "Hy,  I'm Rahul"
     Content: Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff. 🎉
 
   socialIcons:
     - name: Github
       url: "https://github.com/rahuldabgotra"
-    - name: Youtube
-      url: "https://www.youtube.com/@rahuldabgotra"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/rahuldabgotra/"
     - name: twitter
       url: "https://twitter.com/rahuldabgotraa"
+    - name: Youtube
+      url: "https://www.youtube.com/@rahuldabgotra"
 
   cover:
     linkFullImages: true
