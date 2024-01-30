@@ -46,6 +46,7 @@ Your contributions are valued! If you encounter any issues or have suggestions f
 
 ## License
 
-This project is licensed under the MIT License. Please refer to the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. Check the [LICENSE](LICENSE) file for details.
 
+---
 Thank you for visiting my personal website repository! I appreciate your interest and welcome any feedback you may have.
