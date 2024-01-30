@@ -40,7 +40,7 @@ params:
   #   enabled: true
   #   title: "Rahul Dabgotra"
   #   subtitle: Hi 👋! 
-  #   imageUrl: "Profile Pic.jpeg"
+  #   imageUrl: "profile_pic.jpeg"
   #   imageWidth: 250
   #   imageHeight: 250
 
@@ -87,8 +87,11 @@ params:
   # Logo and name shown on top left of site
   label:
     text: "Rahul Dabgotra"
-    icon: logo_2.png
+    icon: logo.png
     iconHeight: 35
+  
+  assets:
+  favicon32x32: logo.png
 
   # Search: https://fusejs.io/api/options.html
   fuseOpts:
