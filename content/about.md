@@ -6,7 +6,7 @@ showToc: false
 ---
 
 {{< rawhtml >}}
-<img style="border-radius:50%;margin-left:auto;margin-right:auto;" width="50%" src="/Profile Pic.jpeg" alt="Picture of me">
+<img style="border-radius:50%;margin-left:auto;margin-right:auto;" width="50%" src="/profile_pic.jpeg" alt="Picture of me">
 <p align="center">Hi! I'm Rahul Dabgotra.</p>
 {{< /rawhtml >}}
 
