@@ -1,7 +1,7 @@
 +++
 title = 'Setting_up_hugo'
 date = 2024-01-30T05:33:41+05:30
-draft = true
+draft = false
 +++
 
 # Getting Started with Hugo
