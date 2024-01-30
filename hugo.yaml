@@ -3,16 +3,78 @@ languageCode: en-us
 title: Rahul Dabgotra
 theme: PaperMod
 
-enableEmoji: true
-frontmatter: yaml
+
+menu:
+  main:
+    - identifier: blogs
+      name: Blogs
+      url: /blogs/
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 2  
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 3
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 4
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 20
+    # - identifier: archives
+    #   name: Archives
+    #   url: /archives/
+    #   weight: 30
 
 params:
-  author: Rahul Dabgotra
+  # SEO: To enable google analytics
+  env: production 
+  
+  # Home Page Configurations
+  # profileMode: 
+  #   enabled: true
+  #   title: "Rahul Dabgotra"
+  #   subtitle: Hi 👋! 
+  #   imageUrl: "Profile Pic.jpeg"
+  #   imageWidth: 250
+  #   imageHeight: 250
+
   homeInfoParams:
-    Title: "Hy,  I'm Rahul"
-    Content: Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff. 🎉
+    Title: "Hy, I’m Rahul"
+    Content: Welcome to my website. Here you’ll find a lot of cool information about a lot of cool stuff. 🎉
+    author: Rahul Dabgotra
+  
+  # Theme: Blog Page Configurations
+  ShowBreadCrumbs: false
+  ShowReadingTime: true
+  showToc: true
+  TocOpen: false
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: false
+  ShowShareButtons: false
+
+  # Suggestions through GitHub  
+  editPost:
+    URL: "https://github.com/rahuldabgotra/rahuldabgotra.github.io/edit/main/content"
+    Text: "Suggest edit"
+    appendFilePath: true
+
+  # List View
+  hideDescriptionInList: false
+
+  # Cover image for posts
+  cover:
+    hiddenInList: false
+    hiddenInSingle: false
 
   socialIcons:
+    - name: "email"
+      url: "mailto:rahuldabgo@gmail.com"
     - name: Github
       url: "https://github.com/rahuldabgotra"
     - name: linkedin
@@ -22,24 +84,31 @@ params:
     - name: Youtube
       url: "https://www.youtube.com/@rahuldabgotra"
 
-  cover:
-    linkFullImages: true
-  ShowBreadCrumbs: true
-  ShowReadingTime: true
-  # ShowPostNavLinks: true
-  ShowShareButtons: true
+  # Logo and name shown on top left of site
+  label:
+    text: "Rahul Dabgotra"
+    icon: logo_2.png
+    iconHeight: 35
 
-menu:
-  main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 30
+  # Search: https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# For search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
