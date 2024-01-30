@@ -89,9 +89,6 @@ params:
     text: "Rahul Dabgotra"
     icon: logo.png
     iconHeight: 35
-  
-  assets:
-  favicon32x32: logo.png
 
   # Search: https://fusejs.io/api/options.html
   fuseOpts:
