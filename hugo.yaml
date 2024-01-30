@@ -1,4 +1,43 @@
 baseURL: "https://rahuldabgotra.github.io/"
 languageCode: en-us
-title: My New Hugo Site
+title: Rahul Dabgotra
 theme: PaperMod
+
+enableEmoji: true
+frontmatter: yaml
+
+params:
+  author: Rahul Dabgotra
+  homeInfoParams:
+    Title: "Hy, I'm Rahul"
+    Content: Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff. 🎉
+
+  socialIcons:
+    - name: Github
+      url: "https://github.com/rahuldabgotra"
+    - name: Youtube
+      url: "https://www.youtube.com/@rahuldabgotra"
+    - name: twitter
+      url: "https://twitter.com/rahuldabgotraa"
+
+  cover:
+    linkFullImages: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  # ShowPostNavLinks: true
+  ShowShareButtons: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
